@@ -1,17 +1,101 @@
+body {
+  margin: 0 auto;
+  padding: 0 auto;
+  background-color: #111111;
+}
+
 header {
   background-color: black;
+  border-bottom: gold solid 2px;
+}
+
+aside {
+  margin-top: 15px;
+  width: 400px;
+  background-color: #222222;
+  margin-left: 15px;
+}
+
+.photo-with-desc {
+  margin-top: 15px;
+  margin: 0 auto;
+  padding: 0;
+  width: 370px;
+  margin-bottom: 0px;
+}
+
+ul {
+  margin-top: 0px;
+}
+
+.primary-skill {
+  border-top: rgb(221, 221, 221) solid 1px;
+  background-color: white;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.primary-skill-header {
+  margin-left: 15px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.myphoto {
+  margin-top: 15px;
+  vertical-align: middle;
+}
+
+.desc-of-photo {
+  padding: 0;
+  margin-bottom: 0px;
+  text-align: center;
+  color: black;
+  background-color: white;
+}
+
+.main-container {
+  width: 1200px;
+  margin: 0 auto;
   display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
 }
 
 .main-title {
+  display: flex;
   justify-content: center;
   text-align: center;
+}
+.main-photo-desc {
+  background-color: white;
+  color: black;
+}
+.main-photo {
+  border: 2px solid gold;
+  margin: 0;
+  padding: 0;
+}
+
+.title {
+  margin: 0 auto;
+  font-size: 60px;
+  letter-spacing: 30px;
 }
 
 .main-text {
   color: wheat;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
 }
 
 .second-text {
+  font-size: 30px;
   color: rgb(231, 55, 55);
+  margin-top: 0px;
+  padding-top: 0px;
+}
+.second-text-underline {
+  color: wheat;
 }
