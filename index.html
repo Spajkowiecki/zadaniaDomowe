@@ -1,24 +1,29 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pl">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:wght@400;700&display=swap"
+        rel="stylesheet">
     <title>Moje Portfolio</title>
 </head>
 
 <body>
     <header>
-        <div class="main-title">
-            <div class="logo">
-                <img src="images/Logo.png" alt="Logo mojego portoflio" />
+        <div class="top-bar">
+            <div>
+                <img width="150px" src="images/Logo.png" alt="Logo mojego portoflio" />
             </div>
-            <div class="title">
-                <h1 class="main-text">PORTFOLIO</h1>
+            <div class="page-title">
+                <h1 class="primary-text">PORTFOLIO</h1>
                 <u class="second-text-underline">
-                    <h2 class="second-text">PATRYK KAROLCZAK</h2>
+                    <h2 class="secondary-text">PATRYK KAROLCZAK</h2>
                 </u>
             </div>
         </div>
@@ -26,26 +31,73 @@
 
     <div id="main-container">
         <aside>
-            <div class="desc-bg">
-                <figure class="photo-with-desc">
-                    <img class="myphoto" height="400px" width="370px" src="/images/myphoto.jpg" alt="Moja mordka" />
-                    <figcaption class="desc-of-photo">
-                        Cześć jestem Patryk
-                    </figcaption>
-                </figure>
-                <div class="primary-skill">
-                    <h1 class="primary-skill-header">UMIEJĘTNOŚCI</h1>
-                    <ul>
-                        <li>HTML5</li>
-                        <li>CSS3</li>
-                        <li>JavaScript</li>
-                        <li>Node.js</li>
+            <figure class="big-poster">
+                <img width="400px" src="images/myphoto.jpg" />
+                <figcaption class="big-poster-center">
+                    <u class="big-poster-text-underline">
+                        <h3 class="big-poster-title-description">WITAJ</h3>
+                    </u>
+                    <p class="big-poster-text" style="width: 800px">Jestem Patryk, aktualnie mam 27 lat. Aktualnie
+                        mieszkam
+                        w
+                        Jarocinie, małym mieście położonym w województwie Wielkopolskim. Moim największym
+                        zainteresowaniem
+                        jest programowanie gier oraz technologia w której zostały stworzone, w wolnym czasie uprawiam
+                        sport,
+                        jazdę na rowerze, oraz od nie dawna kalistenika</p>
+                    <u>
+                        <h3 class="big-poster-title-description-2">MOJE MOTTO</h3>
+                    </u>
+                    <p><i>Zawsze pomagaj potrzebującym, a życie odpłaci się podwójnie</i></p>
+                </figcaption>
+            </figure>
+        </aside>
+        <main>
+            <h1 class="pre-section-title">MOJE PREDYSPOZYCJE</h1>
+            <!-- MY SOFT SKILLS-->
+            <div class="predisposition-section">
+
+                <div class="small-poster">
+                    <h2 class="small-poster-title-center">UMIEJĘTNOŚCI MIĘKKIE</h2>
+                    <ul class="secondary-list">
+                        <li><span class="secondary-list-item">Praca w zespole</span></li>
+                        <li><span class="secondary-list-item">Rozwiązywanie problemów</span></li>
+                        <li><span class="secondary-list-item">Kreatywne myślenie</span></li>
+                        <li><span class="secondary-list-item">Praca w zespole</span></li>
+                        <li><span class="secondary-list-item">Agile</span></li>
+                        <li><span class="secondary-list-item">Scrum</span></li>
+                    </ul>
+                </div>
+
+                <!-- MY BASIC SKILLS-->
+                <div style="margin-left: 10px; margin-right: 10px" class="small-poster">
+                    <h2 class="small-poster-title-center">UMIEJĘTNOŚCI TWARDE</h2>
+                    <ul class="secondary-list">
+                        <li><span class="secondary-list-item">Programowanie</span></li>
+                        <li><span class="secondary-list-item">Znajomość angielskiego</span></li>
+                        <li><span class="secondary-list-item">Kreatywne myślenie</span></li>
+                        <li><span class="secondary-list-item">Praca w zespole</span></li>
+                    </ul>
+                </div>
+                <!-- PROGRAMMING SKILLS -->
+                <div class="small-poster">
+                    <h2 class="small-poster-title-center">PROGRAMOWANIE</h2>
+                    <ul style="list-style-type: none;" class="programming-poster">
+                        <li><span class="secondary-list-item">HTML5</span><progress class="loader-bar" id="file"
+                                value="90" max="100"> 90%
+                            </progress></li>
+                        <li><span class="secondary-list-item">CSS3</span><progress class="loader-bar" id="file"
+                                value="90" max="100"> 90%
+                            </progress></li>
+                        <li><span class="secondary-list-item">JavaScript</span><progress class="loader-bar" id="file"
+                                value="50" max="100"> 50%
+                            </progress></li>
+                        <li><span class="secondary-list-item">Node.js</span><progress class="loader-bar" id="file"
+                                value="50" max="100"> 50%
+                            </progress></li>
                     </ul>
                 </div>
             </div>
-        </aside>
-        <main>
-            MÓJ OPIS
         </main>
     </div>
 </body>
