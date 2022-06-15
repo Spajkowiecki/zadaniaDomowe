@@ -109,6 +109,7 @@ header {
   display: flex;
   justify-content: center;
   margin: 10px;
+  box-shadow: 1px 1px 1px 1px;
 }
 
 .pre-section-title {
@@ -117,4 +118,12 @@ header {
   padding: 5px;
   border-top: rgb(0, 0, 0) solid 1px;
   border-bottom: rgb(0, 0, 0) solid 1px;
+}
+
+footer {
+  display: flex;
+  background-color: black;
+  color: white;
+  margin: 0;
+  padding: 0;
 }
