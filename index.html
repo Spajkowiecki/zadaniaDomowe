@@ -1,130 +1,139 @@
 <!DOCTYPE html>
-<html lang="pl">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:wght@400;700&display=swap"
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,400;1,700&display=swap"
         rel="stylesheet">
-    <title>Moje Portfolio</title>
+    <title>Patryk Karolczak - Portfolio</title>
 </head>
 
 <body>
     <header>
-        <div class="top-bar">
-            <div>
-                <img width="150px" src="images/Logo.png" alt="Logo mojego portoflio" />
-            </div>
-            <div class="page-title">
-                <h1 class="primary-text">PORTFOLIO</h1>
-                <u class="second-text-underline">
-                    <h2 class="secondary-text">PATRYK KAROLCZAK</h2>
-                </u>
-            </div>
+        <div class="title-box">
+            <h1 class="title">MY PORTFOLIO</h1>
         </div>
     </header>
-
-    <div id="main-container">
+    <div class="content-wrapper">
+        <!-- MY BASIC INFORMATIONS-->
         <aside>
-            <figure class="big-poster">
-                <img width="400px" src="images/myphoto.jpg" />
-                <figcaption class="big-poster-center">
-                    <u class="big-poster-text-underline">
-                        <h3 class="big-poster-title-description">WITAJ</h3>
-                    </u>
-                    <p class="big-poster-text" style="width: 800px">Jestem Patryk, aktualnie mam 27 lat. Aktualnie
-                        mieszkam
-                        w
-                        Jarocinie, małym mieście położonym w województwie Wielkopolskim. Moim największym
-                        zainteresowaniem
-                        jest programowanie gier oraz technologia w której zostały stworzone, w wolnym czasie uprawiam
-                        sport,
-                        jazdę na rowerze, oraz od nie dawna kalistenika</p>
-                    <u>
-                        <h3 class="big-poster-title-description-2">MOJE MOTTO</h3>
-                    </u>
-                    <p><i>Zawsze pomagaj potrzebującym, a życie odpłaci się podwójnie</i></p>
-                </figcaption>
-            </figure>
+            <img class="foto" src="images/moja_mordka.jpg" width="300" alt="its my face">
+            <div class="desc1">
+                <h2><u><span>My Soft skills:</span></u></h2>
+                <ul class="my-list-1">
+                    <li><span>TeamWork</span></li>
+                    <li><span>Fast Learning</span></li>
+                    <li><span>Scrum</span></li>
+                </ul>
+            </div>
+            <div class="desc1">
+                <h2><u><span>Programming ?</span></u></h2>
+                <ul class="my-list-1">
+                    <li><span>HTML5</span></li>
+                    <li><span>CSS3</span></li>
+                    <li><span>JavaScript</span></li>
+                </ul>
+            </div>
+            <div class="desc1">
+                <h2><u><span>Contact to me:</span></u></h2>
+                <ul class="my-list-1">
+                    <li><span>TEL: </span><a href="tel:+48728280346">728 280 346</a></li>
+                    <li><span>MAIL:</span><a href="mailto: pcio10@wp.pl">pcio10@wp.pl</a></li>
+                </ul>
+            </div>
         </aside>
+        <!-- MY SOMETHING MORE THAN BASIC-->
         <main>
-            <h1 class="pre-section-title">MOJE PREDYSPOZYCJE</h1>
-            <!-- MY SOFT SKILLS-->
-            <div id="umiejętności" class="predisposition-section">
+            <div>
+                <h1 class="primary-title">Frontend Developer</h1>
+                <div class="short-info">
+                    <p>Remember to always be good because, it will go back with doubled force..</p>
 
-                <div class="small-poster">
-                    <h2 class="small-poster-title-center">UMIEJĘTNOŚCI MIĘKKIE</h2>
-                    <ul class="secondary-list">
-                        <li><span class="secondary-list-item">Praca w zespole</span></li>
-                        <li><span class="secondary-list-item">Rozwiązywanie problemów</span></li>
-                        <li><span class="secondary-list-item">Kreatywne myślenie</span></li>
-                        <li><span class="secondary-list-item">Praca w zespole</span></li>
-                        <li><span class="secondary-list-item">Agile</span></li>
-                        <li><span class="secondary-list-item">Scrum</span></li>
-                    </ul>
+                    <p>Shortly about me:
+                        My name is Patrick and i have 27 years. I'm living in small city Jarocin in Poland.
+                        I'm the biggest fan of <i>StarWars</i>, and <i>Harry Potter</i>( im waiting for the last part
+                        movie)
+                        and
+                        i
+                        like programming websites
+                        and in future i want to be the best <b>Fullstack Dev</b>.
+                    </p>
                 </div>
-
-                <!-- MY BASIC SKILLS-->
-                <div style="margin-left: 10px; margin-right: 10px" class="small-poster">
-                    <h2 class="small-poster-title-center">UMIEJĘTNOŚCI TWARDE</h2>
-                    <ul class="secondary-list">
-                        <li><span class="secondary-list-item">Programowanie</span></li>
-                        <li><span class="secondary-list-item">Znajomość angielskiego</span></li>
-                        <li><span class="secondary-list-item">Kreatywne myślenie</span></li>
-                        <li><span class="secondary-list-item">Praca w zespole</span></li>
-                    </ul>
+            </div>
+            <div>
+                <h2 class="secondary-title">My Projects</h2>
+                <div class="short-desc">
+                    <p>I have worked on simple projects to improve my coding skills, and there are
+                        some
+                        of them.</p>
+                    <ol>
+                        <li><a href="">FRYZJERSTWO MĘSKIE JESSE</a>.....[HTML5, CSS3]</li>
+                        <li><a href="">POLIBIURO-KC</a>.................[HTML5, CSS3]</li>
+                        <li><a href="">SIMPLE APP FOR SHOP</a>..........[Node.js, JavaScript]</li>
+                    </ol>
                 </div>
-                <!-- PROGRAMMING SKILLS -->
-                <div class="small-poster">
-                    <h2 class="small-poster-title-center">PROGRAMOWANIE</h2>
-                    <ul style="list-style-type: none;" class="programming-poster">
-                        <li><span class="secondary-list-item">HTML5</span><progress class="loader-bar" id="file"
-                                value="90" max="100"> 90%
-                            </progress></li>
-                        <li><span class="secondary-list-item">CSS3</span><progress class="loader-bar" id="file"
-                                value="90" max="100"> 90%
-                            </progress></li>
-                        <li><span class="secondary-list-item">JavaScript</span><progress class="loader-bar" id="file"
-                                value="50" max="100"> 50%
-                            </progress></li>
-                        <li><span class="secondary-list-item">Node.js</span><progress class="loader-bar" id="file"
-                                value="50" max="100"> 50%
-                            </progress></li>
+            </div>
+            <div>
+                <h2 class="secondary-title">Work Experience</h2>
+                <div class="work-infos">
+                    <h3 class="third-title">SECURITY AND SAFETY</h3>
+                    <div class="work-infos deco">
+                        <a class="workname">DINO POLSKA</a>
+                        <p class="work-duration">From: 10 / 5 / 2022 | I actually working there</p>
+                        <ul class="work-lists">
+                            <li>Watching the camera screens</li>
+                            <li>Check the alarms</li>
+                            <li>Keep an eye on safety in shops</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="work-infos">
+                    <h3 class="third-title">ELECTRIC HELPER</h3>
+                    <div class="work-infos deco">
+                        <a class="workname">BLASTRAC TECHNOLOGY SYSTEMS</a>
+                        <p class="work-duration">From: 27 / 11 / 2021 | 1 / 5 / 2022</p>
+                        <ul class="work-lists">
+                            <li>Building simple electric boxes</li>
+                            <li>Check part components and part list</li>
+                            <li>Make things from schema</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="work-infos">
+                    <h3 class="third-title">CNC WORKER</h3>
+                    <div class="work-infos deco">
+                        <a class="workname">BEREK</a>
+                        <p class="work-duration">From: 1 / 3 / 2021 | 31 / 10 / 2021</p>
+                        <ul class="work-lists">
+                            <li>Make things witch schema</li>
+                            <li>Check the right parametters</li>
+                            <li>setting up the machine to work</li>
+                    </div>
                     </ul>
                 </div>
             </div>
-            <h1 class="pre-section-title">MOJE PROJEKTY</h1>
-            <!--       STREFA MOICH PROJEKTÓW             -->
-            <div id="projekty" class="predisposition-section">
-
-                <div class="small-poster">
-
-                </div>
-
-                <!-- MY BASIC SKILLS-->
-                <div class="small-poster">
-
-                </div>
-                <!-- PROGRAMMING SKILLS -->
-                <div class="small-poster">
-
+            <div>
+                <h2 class="secondary-title">My education</h2>
+                <div class="work-infos">
+                    <h3 class="third-title">HIGH SCHOOL OF COMMUNICATION AND MANAGEMENT</h3>
+                    <div class="work-infos deco">
+                        <a class="workname">BLASTRAC TECHNOLOGY SYSTEMS</a>
+                        <p class="work-duration">From: 1 / 11 / 2020 | I study actually</p>
+                        <ul class="work-lists">
+                            <li>Building machines, and manipulators</li>
+                            <li>Programming circuits and electrics</li>
+                            <li>Making terminator :D</li>
+                        </ul>
+                    </div>
                 </div>
             </div>
-
-            <!-- KONIEC STREFY MOICH PROJEKTÓW           -->
         </main>
     </div>
-    <footer>
-        <ul>
-            <li>TEL:<a href="tel:+48728280346">728 280 346</a></li>
-            <li>MAIL:<a href="mailto:pcio10@wp.pl">pcio10@wp.pl</a></li>
-        </ul>
-    </footer>
 </body>
 
 </html>

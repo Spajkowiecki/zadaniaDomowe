@@ -1,0 +1,131 @@
+body {
+  background-color: wheat;
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto Mono", monospace;
+}
+
+aside {
+  background-color: lightblue;
+}
+
+main {
+  margin-left: 20px;
+}
+.my-list-1 {
+  color: orange;
+  font-size: 14px;
+  line-height: 24px;
+  list-style-position: inside;
+  margin-left: 0;
+  padding-left: 0;
+}
+
+.my-list-epic {
+  color: gold;
+  font-size: 14px;
+  line-height: 24px;
+  list-style-position: inside;
+  list-style-type: symbols("»");
+}
+
+.foto {
+  padding: 5px;
+}
+
+span {
+  color: black;
+}
+
+.desc1 {
+  font-size: 24;
+  margin: 10px;
+}
+
+u {
+  color: red;
+}
+
+.title-box {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  background-color: rgb(206, 22, 22);
+}
+
+.title {
+  font-size: 80px;
+  color: goldenrod;
+  text-shadow: 2px 1px 2px gold;
+  padding: 30px;
+  margin: 5px;
+  border: 3px groove gold;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+}
+
+.contact-list {
+  list-style: none;
+}
+
+.content-wrapper {
+  display: flex;
+  width: 1200px;
+  background-color: white;
+  color: black;
+  margin: 0 auto;
+}
+
+/* STYLING THE MAIN SECTION */
+/*------| TITLES  |---------*/
+.primary-title {
+  text-align: center;
+  text-decoration: underline;
+}
+
+.short-info {
+  margin-right: 20px;
+  text-align: center;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.short-desc {
+  margin-left: 30px;
+}
+
+.secondary-title {
+  text-transform: uppercase;
+  border-left: 5px gold solid;
+  margin-left: 10px;
+}
+
+.third-title {
+  text-decoration: underline;
+  font-weight: 400;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+
+.work-infos {
+  margin-left: 20px;
+}
+
+.work-lists {
+  list-style-position: inside;
+  list-style: square;
+}
+
+.work-duration {
+  margin-top: 0;
+  color: gray;
+  text-decoration: underline;
+}
+
+.deco {
+  border-left: 3px rgb(233, 233, 233) solid;
+}
+
+/*----| WORK SECTIONS |-----*/
+
+/* END OF MAIN SECTION TYLE */
