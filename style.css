@@ -1,131 +1,90 @@
 body {
-  background-color: wheat;
-  margin: 0;
-  padding: 0;
-  font-family: "Roboto Mono", monospace;
+  height: 100vh;
+  margin: 10px;
+  background-color: black;
+  font-family: "Roboto", sans-serif;
 }
 
-aside {
-  background-color: lightblue;
+a {
+  color: white;
 }
 
 main {
-  margin-left: 20px;
-}
-.my-list-1 {
-  color: orange;
-  font-size: 14px;
-  line-height: 24px;
-  list-style-position: inside;
-  margin-left: 0;
-  padding-left: 0;
+  color: white;
 }
 
-.my-list-epic {
-  color: gold;
-  font-size: 14px;
-  line-height: 24px;
-  list-style-position: inside;
-  list-style-type: symbols("»");
+/*========================================================================================================================================================================*/
+/*========================================================================================================================================================================*/
+/*===========|              NAVIGATOR CLASSES                 |===========================================================================================================*/
+/*========================================================================================================================================================================*/
+
+.main-nav {
+  display: flex;
+  background-color: rgba(19, 19, 19, 0.815);
+  justify-content: space-between;
+  padding: 10px;
+  border-radius: 50px;
+  box-shadow: 1px 1px 0px rgb(124, 124, 124);
 }
 
-.foto {
-  padding: 5px;
+.nav-h2 {
+  position: relative;
+  top: 20px;
+  left: 155px;
+  font-size: 50px;
+  margin-top: 0px;
+  padding: 0;
+  text-transform: uppercase;
+  color: white;
 }
 
-span {
-  color: black;
+.nav-stand-name {
+  position: absolute;
+  left: 110px;
+  top: 50px;
+  font-size: 30px;
+  transform: rotate(-20deg);
+  color: white;
+  font-family: "Fredericka the Great", cursive;
+  margin-left: 0px;
 }
 
-.desc1 {
-  font-size: 24;
-  margin: 10px;
+.nav-page-name {
+  color: rgb(0, 0, 0);
 }
 
-u {
+.nav-core-buttons {
+  right: 20px;
+  top: -5px;
+  display: flex;
+  position: relative;
+  justify-content: space-around;
+}
+
+.nav-button {
+  padding: 30px;
+  margin-left: 10px;
+  background-color: rgba(19, 19, 19, 1);
+  border: none;
+  border-radius: 50px;
+  color: white;
+  box-shadow: 1px 1px 1px rgb(139, 139, 139);
+  transition-property: border-radius;
+  transition-duration: 0.5s;
+}
+
+.nav-button:hover {
+  background-color: rgb(41, 41, 41);
+  border-radius: 15px;
   color: red;
 }
+/*========================================================================================================================================================================*/
+/*========================================================================================================================================================================*/
+/*========================================================================================================================================================================*/
+/*========================================================================================================================================================================*/
 
-.title-box {
-  margin-top: 20px;
-  display: flex;
-  justify-content: center;
-  background-color: rgb(206, 22, 22);
-}
-
-.title {
-  font-size: 80px;
-  color: goldenrod;
-  text-shadow: 2px 1px 2px gold;
-  padding: 30px;
-  margin: 5px;
-  border: 3px groove gold;
-  border-top-left-radius: 30px;
-  border-top-right-radius: 30px;
-}
-
-.contact-list {
-  list-style: none;
-}
-
-.content-wrapper {
-  display: flex;
-  width: 1200px;
-  background-color: white;
-  color: black;
-  margin: 0 auto;
-}
-
-/* STYLING THE MAIN SECTION */
-/*------| TITLES  |---------*/
 .primary-title {
+  margin-top: 50px;
   text-align: center;
-  text-decoration: underline;
+  font-family: "Fredericka the Great", cursive;
 }
-
-.short-info {
-  margin-right: 20px;
-  text-align: center;
-  justify-content: center;
-  margin-bottom: 10px;
-}
-
-.short-desc {
-  margin-left: 30px;
-}
-
-.secondary-title {
-  text-transform: uppercase;
-  border-left: 5px gold solid;
-  margin-left: 10px;
-}
-
-.third-title {
-  text-decoration: underline;
-  font-weight: 400;
-  margin-bottom: 5px;
-  margin-top: 5px;
-}
-
-.work-infos {
-  margin-left: 20px;
-}
-
-.work-lists {
-  list-style-position: inside;
-  list-style: square;
-}
-
-.work-duration {
-  margin-top: 0;
-  color: gray;
-  text-decoration: underline;
-}
-
-.deco {
-  border-left: 3px rgb(233, 233, 233) solid;
-}
-
-/*----| WORK SECTIONS |-----*/
-
-/* END OF MAIN SECTION TYLE */

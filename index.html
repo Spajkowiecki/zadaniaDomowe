@@ -5,135 +5,51 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,400;1,700&display=swap"
-        rel="stylesheet">
-    <title>Patryk Karolczak - Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <!-- CZCIONKA WESTERNOWA-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap" rel="stylesheet">
+
+    <title>Spajkowiecki</title>
 </head>
 
 <body>
     <header>
-        <div class="title-box">
-            <h1 class="title">MY PORTFOLIO</h1>
-        </div>
+        <nav class="main-nav">
+            <div class="nav-logo"><img src="/images/Logo.png" width="100" alt="moje logo"></div>
+            <div class="nav-stand-name"><u>FULLSTACK</u><span style="color: red"><u>DEV.</u></span></div>
+            <div>
+                <h1 class="nav-h2">Patryk Karolczak</h1>
+            </div>
+            <div class="nav-core-buttons">
+                <button class="nav-button" type="button">START</button>
+                <button class="nav-button" type="button">O MNIE</button>
+                <button class="nav-button" type="button">PROJEKTY</button>
+                <button class="nav-button" type="button">KONTAKT</button>
+            </div>
+        </nav>
     </header>
-    <div class="content-wrapper">
-        <!-- MY BASIC INFORMATIONS-->
-        <aside>
-            <img class="foto" src="images/moja_mordka.jpg" width="300" alt="its my face">
-            <div class="desc1">
-                <h2><u><span>My Soft skills:</span></u></h2>
-                <ul class="my-list-1">
-                    <li><span>TeamWork</span></li>
-                    <li><span>Fast Learning</span></li>
-                    <li><span>Scrum</span></li>
-                </ul>
-            </div>
-            <div class="desc1">
-                <h2><u><span>Programming ?</span></u></h2>
-                <ul class="my-list-1">
-                    <li><span>HTML5</span></li>
-                    <li><span>CSS3</span></li>
-                    <li><span>JavaScript</span></li>
-                </ul>
-            </div>
-            <div class="desc1">
-                <h2><u><span>Contact to me:</span></u></h2>
-                <ul class="my-list-1">
-                    <li><span>TEL: </span><a href="tel:+48728280346">728 280 346</a></li>
-                    <li><span>MAIL:</span><a href="mailto: pcio10@wp.pl">pcio10@wp.pl</a></li>
-                </ul>
-            </div>
-        </aside>
-        <!-- MY SOMETHING MORE THAN BASIC-->
-        <main>
-            <div>
-                <h1 class="primary-title">Frontend Developer</h1>
-                <div class="short-info">
-                    <p>Remember to always be good because, it will go back with doubled force..</p>
-
-                    <p>Shortly about me:
-                        My name is Patrick and i have 27 years. I'm living in small city Jarocin in Poland.
-                        I'm the biggest fan of <i>StarWars</i>, and <i>Harry Potter</i>( im waiting for the last part
-                        movie)
-                        and
-                        i
-                        like programming websites
-                        and in future i want to be the best <b>Fullstack Dev</b>.
-                    </p>
-                </div>
-            </div>
-            <div>
-                <h2 class="secondary-title">My Projects</h2>
-                <div class="short-desc">
-                    <p>I have worked on simple projects to improve my coding skills, and there are
-                        some
-                        of them.</p>
-                    <ol>
-                        <li><a href="">FRYZJERSTWO MĘSKIE JESSE</a>.....[HTML5, CSS3]</li>
-                        <li><a href="">POLIBIURO-KC</a>.................[HTML5, CSS3]</li>
-                        <li><a href="">SIMPLE APP FOR SHOP</a>..........[Node.js, JavaScript]</li>
-                    </ol>
-                </div>
-            </div>
-            <div>
-                <h2 class="secondary-title">Work Experience</h2>
-                <div class="work-infos">
-                    <h3 class="third-title">SECURITY AND SAFETY</h3>
-                    <div class="work-infos deco">
-                        <a class="workname">DINO POLSKA</a>
-                        <p class="work-duration">From: 10 / 5 / 2022 | I actually working there</p>
-                        <ul class="work-lists">
-                            <li>Watching the camera screens</li>
-                            <li>Check the alarms</li>
-                            <li>Keep an eye on safety in shops</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="work-infos">
-                    <h3 class="third-title">ELECTRIC HELPER</h3>
-                    <div class="work-infos deco">
-                        <a class="workname">BLASTRAC TECHNOLOGY SYSTEMS</a>
-                        <p class="work-duration">From: 27 / 11 / 2021 | 1 / 5 / 2022</p>
-                        <ul class="work-lists">
-                            <li>Building simple electric boxes</li>
-                            <li>Check part components and part list</li>
-                            <li>Make things from schema</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="work-infos">
-                    <h3 class="third-title">CNC WORKER</h3>
-                    <div class="work-infos deco">
-                        <a class="workname">BEREK</a>
-                        <p class="work-duration">From: 1 / 3 / 2021 | 31 / 10 / 2021</p>
-                        <ul class="work-lists">
-                            <li>Make things witch schema</li>
-                            <li>Check the right parametters</li>
-                            <li>setting up the machine to work</li>
-                    </div>
-                    </ul>
-                </div>
-            </div>
-            <div>
-                <h2 class="secondary-title">My education</h2>
-                <div class="work-infos">
-                    <h3 class="third-title">HIGH SCHOOL OF COMMUNICATION AND MANAGEMENT</h3>
-                    <div class="work-infos deco">
-                        <a class="workname">BLASTRAC TECHNOLOGY SYSTEMS</a>
-                        <p class="work-duration">From: 1 / 11 / 2020 | I study actually</p>
-                        <ul class="work-lists">
-                            <li>Building machines, and manipulators</li>
-                            <li>Programming circuits and electrics</li>
-                            <li>Making terminator :D</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </main>
-    </div>
+    <main>
+        <div class="#main-home">
+            <h2 class="primary-title">WITAJ NA STARCIE</h2>
+        </div>
+        <div>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum ea autem expedita numquam! Provident
+                voluptates iste, suscipit magnam fugiat rerum asperiores id sunt accusantium velit placeat dolores
+                explicabo consequuntur at voluptatum ducimus officia mollitia ipsam doloribus aut unde. Quasi ipsa
+                veritatis vel incidunt molestiae ut nemo iusto aperiam doloremque temporibus odio, quod voluptatibus in
+                optio impedit odit maxime dignissimos similique laudantium fuga accusamus pariatur? Esse, at
+                accusantium. Laudantium, esse aliquam? Dolore explicabo, amet fugit voluptas eos architecto laborum
+                itaque at officia eveniet veritatis eligendi nisi quam eum mollitia. Deleniti voluptas asperiores, eum
+                dignissimos odio voluptate tempore cum laborum impedit vel!
+            </p>
+        </div>
+    </main>
 </body>
 
 </html>
