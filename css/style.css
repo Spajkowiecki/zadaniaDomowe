@@ -1,6 +1,5 @@
 body {
-  height: 100vh;
-  margin: 10px;
+  margin: 30px;
   background-color: black;
   font-family: "Roboto", sans-serif;
 }
@@ -17,7 +16,59 @@ main {
 /*========================================================================================================================================================================*/
 /*===========|              NAVIGATOR CLASSES                 |===========================================================================================================*/
 /*========================================================================================================================================================================*/
+.main-nav {
+  display: flex;
+  background-color: rgba(19, 19, 19, 0.815);
+  box-shadow: 1px 1px 0px rgb(124, 124, 124);
+  justify-content: space-evenly;
+  border-radius: 50px;
 
+  z-index: 1;
+}
+
+.nav-title {
+  text-align: center;
+}
+
+.nav-core-buttons {
+  position: relative;
+  align-self: center;
+  z-index: 3;
+}
+
+.nav-button {
+  background-color: rgba(27, 27, 27, 0.815);
+  border: transparent;
+}
+
+.nav-button:hover {
+  color: red;
+}
+
+.nav-logo {
+  z-index: 2;
+}
+
+.nav-h2 {
+  color: white;
+  text-transform: uppercase;
+}
+
+.main-home {
+  text-align: center;
+}
+
+.nav-stand-name {
+  position: absolute;
+  top: 80px;
+  font-size: 25px;
+  color: white;
+  font-family: "Fredericka the Great", cursive;
+  margin-left: 0px;
+  z-index: 3;
+}
+
+/*
 .main-nav {
   display: flex;
   background-color: rgba(19, 19, 19, 0.815);
@@ -27,38 +78,17 @@ main {
   box-shadow: 1px 1px 0px rgb(124, 124, 124);
 }
 
-.nav-h2 {
-  position: relative;
-  top: 20px;
-  left: 155px;
-  font-size: 50px;
-  margin-top: 0px;
-  padding: 0;
-  text-transform: uppercase;
-  color: white;
-}
 
-.nav-stand-name {
-  position: absolute;
-  left: 110px;
-  top: 50px;
-  font-size: 30px;
-  transform: rotate(-20deg);
-  color: white;
-  font-family: "Fredericka the Great", cursive;
-  margin-left: 0px;
-}
+
 
 .nav-page-name {
   color: rgb(0, 0, 0);
 }
 
 .nav-core-buttons {
-  right: 20px;
-  top: -5px;
-  display: flex;
-  position: relative;
-  justify-content: space-around;
+  /*right: 20px;*/
+/*top: -5px;*/
+/*display: flex;
 }
 
 .nav-button {
@@ -81,10 +111,11 @@ main {
 /*========================================================================================================================================================================*/
 /*========================================================================================================================================================================*/
 /*========================================================================================================================================================================*/
-/*========================================================================================================================================================================*/
+/*========================================================================================================================================================================
 
 .primary-title {
   margin-top: 50px;
   text-align: center;
   font-family: "Fredericka the Great", cursive;
 }
+*/
